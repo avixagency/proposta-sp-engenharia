@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Proposta comercial · SP Engenharia &amp; Construção · SF Creative</title>
+<meta name="description" content="Proposta de produção audiovisual da SF Creative para a SP Engenharia &amp; Construção.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&amp;family=Geist:wght@300..700&amp;family=Geist+Mono:wght@400;500&amp;display=swap">
+<style>
+:root{--bg:#000;--c1:#0a0a0a;--line:rgba(255,255,255,.13);--line2:rgba(255,255,255,.3);--mute:#8f8f8f;--soft:#c4c4c4;--disp:'Archivo',ui-sans-serif,sans-serif;--body:'Geist',ui-sans-serif,sans-serif;--mono:'Geist Mono',ui-monospace,monospace;--ease:cubic-bezier(.16,1,.3,1)}
+html{scroll-behavior:smooth;background:#000}
+body{margin:0;background:#000}
+a{color:#fff}a:hover{color:#d0d0d0}
+.sf{position:relative;background:var(--bg);color:#fff;font-family:var(--body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:clip}
+.sf *,.sf *::before,.sf *::after{box-sizing:border-box}
+.sf a{text-decoration:none}
+.sf ::selection{background:#fff;color:#000}
+.sf :focus-visible{outline:1px solid #fff;outline-offset:4px}
+.sf section{scroll-margin-top:70px}
+.cursor-on,.cursor-on a{cursor:none}
+.sf .wrap{width:100%;max-width:1360px;margin:0 auto;padding:0 40px}
+.sf .lbl{font-family:var(--mono);font-size:12px;font-weight:400;letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}
+.sf .h1{font-family:var(--disp);font-stretch:112%;font-weight:700;letter-spacing:-.045em;line-height:.9;margin:0;font-size:clamp(52px,8.6vw,136px)}
+.sf .h2{font-family:var(--disp);font-stretch:108%;font-weight:700;letter-spacing:-.04em;line-height:.95;margin:0;font-size:clamp(40px,5.4vw,84px)}
+.sf .it{font-style:italic;font-weight:300;letter-spacing:-.03em;padding-right:.06em}
+.sf .lead{font-size:clamp(18px,1.45vw,22px);color:var(--soft);line-height:1.55;max-width:640px;margin:0}
+.sf .ln-b{display:block}
+.sf .w,.sf .wt{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.1em;margin-bottom:-.1em}
+.sf .w>span{display:inline-block;animation:up 1.3s var(--ease) both}
+.sf .wt>span{display:inline-block}
+.sf .fi{animation:fadeUp 1.2s var(--ease) both}
+
+/* nav */
+.sf .nav{position:fixed;top:0;left:0;right:0;z-index:60;border-bottom:1px solid transparent;transition:background .5s var(--ease),border-color .5s}
+.sf .nav-in{display:flex;align-items:center;justify-content:space-between;gap:24px;height:80px;transition:height .5s var(--ease)}
+.sf .nav.is-scrolled{background:#000;border-color:var(--line)}
+.sf .nav.is-scrolled .nav-in{height:62px}
+.sf .lock{display:flex;align-items:center;gap:14px;color:#fff}
+.sf .lock:hover{color:#fff}
+.sf .lock-sf{display:block;height:26px;width:auto}
+.sf .lock-x{font-family:var(--mono);font-size:13px;color:var(--mute)}
+.sf .lock-img{display:block;height:38px;width:auto}
+.sf .idx{display:flex;gap:26px;list-style:none;margin:0;padding:0}
+.sf .idx a{position:relative;font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);transition:color .3s}
+.sf .idx a b{font-weight:400;color:#5c5c5c;margin-right:8px;transition:color .3s}
+.sf .idx a::after{content:'';position:absolute;left:0;right:0;bottom:-6px;height:1px;background:#fff;transform:scaleX(0);transform-origin:right;transition:transform .5s var(--ease)}
+.sf .idx a:hover,.sf .idx a:hover b{color:#fff}
+.sf .idx a:hover::after{transform:scaleX(1);transform-origin:left}
+
+/* fundo */
+.sf .pt{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;display:block}
+.no-pt .pt{display:none}
+.sf main,.sf .ft{position:relative;z-index:1}
+.sf .ft{background:rgba(0,0,0,.6)}
+.sf .bg-grid,.sf .bg-spot,.sf .bg-dots{position:relative;isolation:isolate}
+.sf .bg-grid::before,.sf .bg-spot::before,.sf .bg-dots::before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none}
+.sf .bg-grid{background:rgba(10,10,10,.72)}
+.sf .bg-grid::before{background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:96px 96px;-webkit-mask-image:radial-gradient(70% 70% at 50% 40%,#000 20%,transparent 80%);mask-image:radial-gradient(70% 70% at 50% 40%,#000 20%,transparent 80%)}
+.sf .bg-spot::before{background:radial-gradient(55% 60% at 50% 0%,rgba(255,255,255,.085),rgba(255,255,255,0) 70%)}
+.sf .bg-dots{background:rgba(8,8,8,.6)}
+.sf .bg-dots::before{background-image:radial-gradient(rgba(255,255,255,.12) 1px,transparent 1.3px);background-size:22px 22px;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 35%,#000 65%,transparent);mask-image:linear-gradient(to bottom,transparent,#000 35%,#000 65%,transparent)}
+.sf .grain{position:absolute;left:-50%;top:-50%;width:200%;height:200%;pointer-events:none;opacity:.08;z-index:1;animation:grain 1s steps(6) infinite}
+.no-grain .grain{display:none}
+.sf .glow{position:absolute;width:52%;height:62%;right:-8%;top:-6%;border-radius:50%;background:#fff;opacity:.07;filter:blur(130px);animation:drift 18s ease-in-out infinite alternate;pointer-events:none}
+
+/* capa */
+.sf .cover{position:relative;min-height:920px;display:flex;flex-direction:column;justify-content:flex-end;padding:160px 0 72px;overflow:hidden;border-bottom:1px solid var(--line)}
+.sf .cover-in{position:relative;z-index:2}
+.sf .cover-top{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;padding-bottom:28px;margin-bottom:56px;border-bottom:1px solid var(--line2)}
+.sf .cover-id{display:flex;align-items:center;gap:24px}
+.sf .cover-logo{display:block;height:84px;width:auto}
+.sf .cover-cl{font-family:var(--disp);font-stretch:112%;font-weight:700;font-size:clamp(26px,2.4vw,38px);letter-spacing:-.03em;line-height:1.05;margin:8px 0 0}
+.sf .cover-row{margin-top:44px}
+.sf .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:72px;border-top:1px solid var(--line2)}
+.sf .stat{padding:24px 24px 0 0}
+.sf .stat+.stat{padding-left:24px;border-left:1px solid var(--line)}
+.sf .stat-n{font-family:var(--disp);font-stretch:112%;font-weight:700;font-size:clamp(34px,3.6vw,58px);letter-spacing:-.04em;line-height:1}
+.sf .stat .lbl{display:block;margin-top:12px}
+
+/* seções */
+.sf .sec{padding:140px 0;border-bottom:1px solid var(--line)}
+.sf .shead{display:flex;align-items:center;gap:18px;margin-bottom:56px}
+.sf .shead .ln{flex:1;height:1px;background:var(--line);transform-origin:left}
+.sf .split{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:60px;align-items:end;margin-bottom:72px}
+.sf .pp{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px;margin-top:80px}
+.sf .pp-i{border-top:1px solid var(--line2);padding-top:28px;display:grid;grid-template-columns:80px minmax(0,1fr);gap:20px}
+.sf .pp-n{font-family:var(--disp);font-stretch:125%;font-weight:800;font-size:56px;line-height:.9;letter-spacing:-.05em;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.55)}
+.sf .pp-i p{margin:0;color:var(--soft);font-size:18px}
+.sf .pil{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.sf .pil-i{position:relative;isolation:isolate;min-height:320px;padding:32px 28px 36px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:18px;transition:color .6s var(--ease)}
+.sf .pil-i::before{content:'';position:absolute;inset:0;background:#fff;transform:scaleY(0);transform-origin:bottom;transition:transform .7s var(--ease);z-index:-1}
+.sf .pil-i:hover{color:#000}
+.sf .pil-i:hover::before{transform:scaleY(1)}
+.sf .pil-n{font-family:var(--disp);font-stretch:125%;font-weight:800;font-size:48px;line-height:.9;letter-spacing:-.05em;color:transparent;-webkit-text-stroke:1px currentColor;opacity:.6}
+.sf .pil-t{font-family:var(--disp);font-stretch:108%;font-weight:700;font-size:28px;letter-spacing:-.03em;line-height:1.05;margin:auto 0 0}
+.sf .pil-d{margin:0;color:var(--soft);transition:color .6s}
+.sf .pil-i:hover .pil-d{color:#3a3a3a}
+
+/* cases */
+.sf .cases{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.sf .case{height:200px;display:grid;place-items:center;border-right:1px solid var(--line);border-bottom:1px solid var(--line);transition:background .5s var(--ease)}
+.sf .case img{display:block;max-width:80%;object-fit:contain;opacity:.7;transition:opacity .5s var(--ease),transform .7s var(--ease)}
+.sf .case-txt{font-family:var(--disp);font-stretch:118%;font-weight:700;font-size:30px;letter-spacing:-.02em;opacity:.7;transition:opacity .5s,transform .7s var(--ease)}
+.sf .case:hover{background:rgba(255,255,255,.04)}
+.sf .case:hover img,.sf .case:hover .case-txt{opacity:1;transform:scale(1.06)}
+
+/* planos */
+.sf .plans{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:stretch}
+.sf .plan{border:1px solid var(--line2);padding:40px;display:flex;flex-direction:column;gap:22px;background:rgba(0,0,0,.55)}
+.sf .plan.hl{background:#fff;color:#000;border-color:#fff}
+.sf .plan.hl .lbl,.sf .plan.hl .pl-d,.sf .plan.hl .pl-ex small,.sf .plan.hl .pl-note{color:#555}
+.sf .pl-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.sf .badge{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--line2);border-radius:999px;padding:6px 12px}
+.sf .plan.hl .badge{background:#000;color:#fff;border-color:#000}
+.sf .pl-name{font-family:var(--disp);font-stretch:108%;font-weight:700;font-size:34px;letter-spacing:-.03em;line-height:1.05;margin:0}
+.sf .pl-price{display:flex;align-items:baseline;flex-wrap:wrap;gap:0 10px;font-family:var(--disp);font-stretch:112%;font-weight:700;font-size:clamp(52px,5.2vw,84px);letter-spacing:-.05em;line-height:.9;margin:0}
+.sf .pl-cur{align-self:flex-start;font-size:.3em;letter-spacing:0;font-weight:500;font-stretch:100%;margin-top:.3em}
+.sf .pl-val{font:inherit}
+.sf .pl-per{font-family:var(--mono);font-size:13px;letter-spacing:.12em;font-weight:400;font-stretch:100%;text-transform:uppercase;color:var(--mute)}
+.sf .plan.hl .pl-per{color:#555}
+.sf .pl-d{margin:0;color:var(--soft);font-size:17px}
+.sf .pl-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.sf .plan.hl .pl-list,.sf .plan.hl .pl-list li{border-color:rgba(0,0,0,.14)}
+.sf .pl-list li{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--line);font-size:16px}
+.sf .pl-list li svg{width:18px;height:18px;flex-shrink:0;margin-top:3px}
+.sf .pl-ex{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-top:auto;padding-top:8px}
+.sf .pl-ex b{display:block;font-size:17px;font-weight:600}
+.sf .pl-ex small{display:block;color:var(--mute);font-size:14px}
+.sf .pl-ex em{font-style:normal;font-family:var(--mono);font-size:15px;white-space:nowrap}
+.sf .pl-tot{border:1px dashed var(--line2);padding:20px 22px}
+.sf .plan.hl .pl-tot{border-color:rgba(0,0,0,.3);background:#f2f2f2}
+.sf .pl-tot b{display:block;font-family:var(--disp);font-stretch:112%;font-size:32px;letter-spacing:-.03em;line-height:1.1;margin-top:6px}
+.sf .pl-note{margin:10px 0 0;font-size:14px;color:var(--mute)}
+
+/* comparativo */
+.sf .cmp-wrap{overflow-x:auto;border-top:1px solid var(--line2)}
+.sf .cmp{width:100%;min-width:640px;border-collapse:collapse}
+.sf .cmp th,.sf .cmp td{padding:20px 16px;text-align:left;border-bottom:1px solid var(--line);font-size:16px;vertical-align:top}
+.sf .cmp thead th{font-family:var(--disp);font-stretch:108%;font-weight:700;font-size:22px;letter-spacing:-.02em}
+.sf .cmp thead th:first-child{font-family:var(--mono);font-size:12px;font-weight:400;letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}
+.sf .cmp tbody th{font-family:var(--mono);font-size:12px;font-weight:400;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);width:28%}
+.sf .cmp td:last-child,.sf .cmp th:last-child{background:rgba(255,255,255,.05)}
+.sf .cmp tr.big td{font-family:var(--disp);font-stretch:112%;font-weight:700;font-size:30px;letter-spacing:-.03em}
+
+/* fechamento */
+.sf .end{position:relative;overflow:hidden;padding:180px 0 160px;text-align:center}
+.sf .end .glow{left:27%;right:auto;top:18%;width:46%;height:56%}
+.sf .end-in{position:relative;z-index:2}
+.sf .end .h1{font-size:clamp(46px,7.2vw,116px);line-height:.92}
+.sf .end .lead{margin:36px auto 0;max-width:640px}
+.sf .end-meta{margin-top:64px;display:flex;justify-content:center;gap:28px;flex-wrap:wrap}
+.sf .ft{border-top:1px solid var(--line);padding:36px 0}
+.sf .ft-in{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+
+/* cursor */
+.sf .cur-dot,.sf .cur-ring{position:fixed;left:0;top:0;z-index:100;pointer-events:none;opacity:0;transition:opacity .3s;mix-blend-mode:difference}
+.sf .cur-dot.on,.sf .cur-ring.on{opacity:1}
+.sf .cur-dot::before{content:'';position:absolute;width:6px;height:6px;margin:-3px 0 0 -3px;border-radius:50%;background:#fff}
+.sf .cur-in{position:absolute;width:38px;height:38px;left:-19px;top:-19px;border-radius:50%;border:1px solid #fff;transition:width .5s var(--ease),height .5s var(--ease),left .5s var(--ease),top .5s var(--ease),background .4s,transform .3s var(--ease)}
+.sf .cur-ring.hov .cur-in{width:72px;height:72px;left:-36px;top:-36px;background:#fff}
+.sf .cur-ring.dn .cur-in{transform:scale(.82)}
+
+/* reveals */
+.is-ready .rv{opacity:0;transform:translateY(40px);transition:opacity 1.1s var(--ease),transform 1.1s var(--ease)}
+.is-ready .rv.in{opacity:1;transform:none}
+.is-ready .d1{transition-delay:.1s}.is-ready .d2{transition-delay:.2s}.is-ready .d3{transition-delay:.3s}
+.is-ready .rv-line{transform:scaleX(0);transition:transform 1.4s var(--ease)}
+.is-ready .rv-line.in{transform:scaleX(1)}
+.is-ready .rvw .wt>span{transform:translateY(105%);transition:transform 1.3s var(--ease)}
+.is-ready .rvw.in .wt>span{transform:none}
+
+@keyframes up{from{transform:translateY(105%)}to{transform:none}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes drift{from{transform:translate(0,0)}to{transform:translate(-12%,8%)}}
+@keyframes grain{0%{transform:translate(0,0)}20%{transform:translate(-8%,4%)}40%{transform:translate(5%,-6%)}60%{transform:translate(-4%,8%)}80%{transform:translate(7%,2%)}100%{transform:translate(0,0)}}
+
+@media (max-width:960px){
+.sf .wrap{padding:0 20px}
+.sf .idx{display:none}
+.sf .cover{min-height:0;padding:130px 0 56px}
+.sf .cover-logo{height:60px}
+.sf .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+.sf .stat:nth-child(3){padding-left:0;border-left:0}
+.sf .stat{padding-bottom:22px}
+.sf .sec{padding:96px 0}
+.sf .split{grid-template-columns:minmax(0,1fr);gap:24px;margin-bottom:48px}
+.sf .pp{grid-template-columns:minmax(0,1fr);gap:40px;margin-top:48px}
+.sf .pp-i{grid-template-columns:minmax(0,1fr)}
+.sf .pil{grid-template-columns:minmax(0,1fr)}
+.sf .pil-i{min-height:0}
+.sf .pil-t{margin-top:8px}
+.sf .cases{grid-template-columns:repeat(2,minmax(0,1fr))}
+.sf .case{height:130px}
+.sf .plans{grid-template-columns:minmax(0,1fr)}
+.sf .plan{padding:28px 22px}
+}
+@media (prefers-reduced-motion:reduce){
+html{scroll-behavior:auto}
+.sf *,.sf *::before,.sf *::after{animation:none !important;transition:none !important}
+.is-ready .rv,.is-ready .rv-line,.is-ready .rvw .wt>span{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<div class="sf">
+
+<div class="cur-dot" aria-hidden="true"></div>
+<div class="cur-ring" aria-hidden="true"><div class="cur-in"></div></div>
+<canvas class="pt" data-pt="1" aria-hidden="true"></canvas>
+
+<header class="nav">
+<div class="wrap nav-in">
+<a class="lock" href="#top" aria-label="SF Creative × SP Engenharia &amp; Construção">
+<img class="lock-sf" src="assets/sf-logo.png" alt="SF" width="43" height="26">
+<span class="lock-x" aria-hidden="true">×</span>
+<img class="lock-img" src="assets/sp-logo.png" alt="SP Engenharia &amp; Construção" width="32" height="38">
+</a>
+<nav aria-label="Seções da proposta">
+<ul class="idx">
+<li><a href="#proposta"><b>01</b>Proposta</a></li>
+<li><a href="#frentes"><b>02</b>Frentes</a></li>
+<li><a href="#cases"><b>03</b>Clientes</a></li>
+<li><a href="#planos"><b>04</b>Planos</a></li>
+<li><a href="#comparativo"><b>05</b>Comparativo</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<main>
+
+<!-- CAPA -->
+<section class="cover" id="top" aria-labelledby="t-capa">
+<div class="glow" aria-hidden="true"></div>
+<svg class="grain" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><filter id="grain-s"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"></feTurbulence><feColorMatrix type="saturate" values="0"></feColorMatrix></filter><rect width="100%" height="100%" filter="url(#grain-s)"></rect></svg>
+<div class="wrap cover-in">
+<div class="cover-top fi" style="animation-delay: .15s">
+<div class="cover-id">
+<img class="cover-logo" src="assets/sp-logo.png" alt="" width="71" height="84">
+<div><span class="lbl">Proposta comercial</span><p class="cover-cl">SP Engenharia &amp; Construção</p></div>
+</div>
+<span class="lbl">SF · Produção audiovisual · 2026</span>
+</div>
+<h1 class="h1" id="t-capa">
+<span class="ln-b"><span class="w"><span style="animation-delay: .35s">Obra</span></span> <span class="w"><span style="animation-delay: .42s">bem</span></span> <span class="w"><span style="animation-delay: .49s">feita</span></span></span>
+<span class="ln-b"><span class="w"><span style="animation-delay: .56s">também</span></span> <span class="w"><span style="animation-delay: .63s">precisa</span></span></span>
+<span class="ln-b"><span class="w"><span style="animation-delay: .7s">ser</span></span> <span class="w"><span class="it" style="animation-delay: .78s">vista.</span></span></span>
+</h1>
+<div class="cover-row fi" style="animation-delay: .95s">
+<p class="lead">A SP Engenharia entrega obra e projeto todos os dias. A proposta: a SF no canteiro todo mês, filmando e fotografando, e conteúdo editado pronto para publicar.</p>
+</div>
+<div class="stats fi" style="animation-delay: 1.1s">
+<div class="stat"><div class="stat-n">4–12</div><span class="lbl">Vídeos / mês</span></div>
+<div class="stat"><div class="stat-n">1–2</div><span class="lbl">Diárias / mês</span></div>
+<div class="stat"><div class="stat-n">Foto + vídeo</div><span class="lbl">Em cada captação</span></div>
+<div class="stat"><div class="stat-n">4–6 h</div><span class="lbl">Por diária</span></div>
+</div>
+</div>
+</section>
+
+<!-- 01 -->
+<section class="sec" id="proposta" aria-labelledby="t-proposta">
+<div class="wrap">
+<div class="shead"><span class="lbl">01 · A proposta</span><span class="ln rv-line" data-io="1"></span><span class="lbl">Presença digital da SP</span></div>
+<h2 class="h2 rv" data-io="1" id="t-proposta" style="max-width: 1080px">Mostrar o que acontece <span class="it">atrás do tapume.</span></h2>
+<div class="pp">
+<div class="pp-i rv" data-io="1"><div class="pp-n" aria-hidden="true">01</div><p>A SF acompanha a SP em diárias de captação planejadas: canteiro, equipe, etapas da obra e entregas. Cada diária vira vídeos e fotos editados, prontos para publicar.</p></div>
+<div class="pp-i rv d1" data-io="1"><div class="pp-n" aria-hidden="true">02</div><p>Quem pesquisa uma construtora antes de contratar vai encontrar a SP mostrando o próprio trabalho: o método, o cuidado em cada etapa e quem constrói.</p></div>
+</div>
+</div>
+</section>
+
+<!-- 02 -->
+<section class="sec bg-grid" id="frentes" aria-labelledby="t-frentes">
+<div class="wrap">
+<div class="shead"><span class="lbl">02 · O que existe por trás</span><span class="ln rv-line" data-io="1"></span><span class="lbl">Obra, projeto, equipe, entrega</span></div>
+<h2 class="h2 rv" data-io="1" id="t-frentes" style="margin-bottom: 72px">Tudo o que já acontece na obra <span class="it">vira conteúdo.</span></h2>
+<div class="pil">
+<article class="pil-i rv" data-io="1"><span class="pil-n" aria-hidden="true">01</span><h3 class="pil-t">Obras em andamento</h3><p class="pil-d">Cada etapa registrada enquanto acontece, da fundação ao acabamento.</p></article>
+<article class="pil-i rv d1" data-io="1"><span class="pil-n" aria-hidden="true">02</span><h3 class="pil-t">Projeto &amp; engenharia</h3><p class="pil-d">As decisões técnicas por trás de cada obra, em linguagem que o cliente entende.</p></article>
+<article class="pil-i rv d2" data-io="1"><span class="pil-n" aria-hidden="true">03</span><h3 class="pil-t">Equipe &amp; bastidores</h3><p class="pil-d">Os rostos por trás da obra, no ritmo real do canteiro.</p></article>
+<article class="pil-i rv d3" data-io="1"><span class="pil-n" aria-hidden="true">04</span><h3 class="pil-t">Entregas</h3><p class="pil-d">O antes e o depois lado a lado: a prova que convence o próximo cliente.</p></article>
+</div>
+</div>
+</section>
+
+<!-- 03 CASES -->
+<section class="sec" id="cases" aria-labelledby="t-cases">
+<div class="wrap">
+<div class="shead"><span class="lbl">03 · Clientes</span><span class="ln rv-line" data-io="1"></span></div>
+<div class="split">
+<h2 class="h2 rv" data-io="1" id="t-cases">Quem <span class="it">atendemos.</span></h2>
+<p class="lead rv d1" data-io="1">Empresas que contam com a SF para registrar o próprio trabalho.</p>
+</div>
+<div class="cases rv" data-io="1">
+<div class="case"><span class="case-txt" aria-label="Foneplan">FONEPLAN</span></div>
+<div class="case"><img src="assets/clientes/metal-flama.png" alt="Metal Flama" loading="lazy" style="width: 190px; height: 21px"></div>
+<div class="case"><img src="assets/clientes/disparquet.png" alt="Grupo Disparquet" loading="lazy" style="width: 140px; height: 54px"></div>
+<div class="case"><img src="assets/clientes/climatec.png" alt="Climatec" loading="lazy" style="width: 146px; height: 50px"></div>
+</div>
+</div>
+</section>
+
+<!-- 04 PLANOS -->
+<section class="sec bg-spot" id="planos" aria-labelledby="t-planos">
+<div class="wrap">
+<div class="shead"><span class="lbl">04 · Planos</span><span class="ln rv-line" data-io="1"></span><span class="lbl">Duas opções</span></div>
+<h2 class="h2 rv" data-io="1" id="t-planos" style="margin-bottom: 72px">Duas formas de <span class="it">começar.</span></h2>
+<div class="plans">
+
+<article class="plan rv" data-io="1">
+<div class="pl-top"><span class="lbl">Opção 01</span><span class="badge">Plano inicial</span></div>
+<h3 class="pl-name">Start</h3>
+<p class="pl-price"><span class="pl-cur">R$</span><b class="pl-val">1.800</b><span class="pl-per">/mês</span></p>
+<p class="pl-d">Uma diária por mês e material para publicar toda semana. O jeito mais simples de começar.</p>
+<ul class="pl-list">
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>1 diária de captação mensal (4 a 6 horas)</li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>Produção de 4 a 6 vídeos editados</li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>Fotografias produzidas durante a captação</li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>Planejamento e direcionamento dos conteúdos</li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>Edição e finalização dos materiais</li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>Entrega dos arquivos prontos para publicação</li>
+</ul>
+<div class="pl-ex"><div><b>Gestão de redes sociais (opcional)</b><small>Organização, legendas e publicações</small></div><em>+ R$ 500/mês</em></div>
+<div class="pl-tot"><span class="lbl">Total com gestão de redes sociais</span><b>R$ 2.300/mês</b><p class="pl-note">Proposta inicial para os primeiros 3 meses, com possibilidade de continuidade.</p></div>
+</article>
+
+<article class="plan hl rv d1" data-io="1">
+<div class="pl-top"><span class="lbl">Opção 02</span><span class="badge">Melhor custo-benefício</span></div>
+<h3 class="pl-name">Full</h3>
+<p class="pl-price"><span class="pl-cur">R$</span><b class="pl-val">3.000</b><span class="pl-per">/mês</span></p>
+<p class="pl-d">Duas diárias por mês: o dobro de material, mais obras e bastidores, e conteúdo novo duas a três vezes por semana.</p>
+<ul class="pl-list">
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>2 diárias de captação mensais (4 a 6 horas cada)</li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>Produção de 8 a 12 vídeos editados</li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>Fotografias produzidas durante as duas captações</li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>Planejamento estratégico mensal dos conteúdos</li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>Maior diversidade de temas, obras, projetos e bastidores</li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>Edição e finalização dos materiais</li>
+<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"></path></svg>Entrega dos arquivos prontos para publicação</li>
+</ul>
+<div class="pl-ex"><div><b>Gestão de redes sociais (opcional)</b><small>Organização, legendas e publicações</small></div><em>+ R$ 500/mês</em></div>
+<div class="pl-tot"><span class="lbl">Total com gestão de redes sociais</span><b>R$ 3.500/mês</b><p class="pl-note">Valor equivalente a R$ 1.500 por diária, com economia de R$ 600/mês em relação a duas diárias avulsas de R$ 1.800.</p></div>
+</article>
+
+</div>
+</div>
+</section>
+
+<!-- 05 COMPARATIVO -->
+<section class="sec bg-dots" id="comparativo" aria-labelledby="t-cmp">
+<div class="wrap">
+<div class="shead"><span class="lbl">05 · Comparativo</span><span class="ln rv-line" data-io="1"></span></div>
+<h2 class="h2 rv" data-io="1" id="t-cmp" style="margin-bottom: 64px">A diferença, <span class="it">item por item.</span></h2>
+<div class="cmp-wrap rv d1" data-io="1">
+<table class="cmp">
+<thead><tr><th scope="col">Item</th><th scope="col">Start</th><th scope="col">Full</th></tr></thead>
+<tbody>
+<tr><th scope="row">Diárias de captação</th><td>1 por mês (4 a 6 h)</td><td>2 por mês (4 a 6 h cada)</td></tr>
+<tr><th scope="row">Vídeos editados</th><td>4 a 6</td><td>8 a 12</td></tr>
+<tr><th scope="row">Fotografias</th><td>Durante a captação</td><td>Durante as duas captações</td></tr>
+<tr><th scope="row">Planejamento</th><td>Direcionamento dos conteúdos</td><td>Estratégico mensal</td></tr>
+<tr><th scope="row">Valor por diária</th><td>R$ 1.800</td><td>R$ 1.500</td></tr>
+<tr class="big"><th scope="row">Investimento mensal</th><td>R$ 1.800</td><td>R$ 3.000</td></tr>
+<tr><th scope="row">Com gestão de redes</th><td>R$ 2.300</td><td>R$ 3.500</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+
+<!-- FECHAMENTO -->
+<section class="end" aria-labelledby="t-end">
+<div class="glow" aria-hidden="true"></div>
+<div class="wrap end-in">
+<h2 class="h1 rvw" data-io="1" id="t-end">
+<span class="ln-b"><span class="wt"><span>A</span></span> <span class="wt"><span style="transition-delay: .06s">próxima</span></span> <span class="wt"><span style="transition-delay: .12s">obra</span></span></span>
+<span class="ln-b"><span class="wt"><span style="transition-delay: .18s">já</span></span> <span class="wt"><span style="transition-delay: .24s">pode</span></span> <span class="wt"><span style="transition-delay: .3s">sair</span></span></span>
+<span class="ln-b"><span class="wt"><span class="it" style="transition-delay: .36s">filmada.</span></span></span>
+</h2>
+<p class="lead rv d2" data-io="1">Definida a opção, marcamos a primeira diária de captação e o planejamento do primeiro mês.</p>
+<div class="end-meta rv d3" data-io="1"><span class="lbl">WhatsApp · <span data-wa-label>+55 15 97404-0823</span></span><span class="lbl" data-validade hidden>Válida até <b data-validade-txt></b></span></div>
+</div>
+</section>
+
+</main>
+
+<footer class="ft">
+<div class="wrap ft-in">
+<img class="lock-sf" src="assets/sf-logo.png" alt="SF" width="43" height="26">
+<span class="lbl">Proposta confidencial · SP Engenharia &amp; Construção · 2026</span>
+</div>
+</footer>
+
+</div>
+<script src="app.js" defer></script>
+</body>
+</html>
