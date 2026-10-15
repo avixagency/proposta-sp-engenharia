@@ -4,7 +4,7 @@
 
   /* ===== Ajustes rápidos ===== */
   var CONFIG = {
-    whatsapp: '5515974040823', // só números, com DDI 55 + DDD
+    whatsapp: '5515988028794', // só números, com DDI 55 + DDD
     validade: '',               // ex.: '30/11/2026' — vazio esconde a linha
     particulas: true,
     cursorPersonalizado: true,
